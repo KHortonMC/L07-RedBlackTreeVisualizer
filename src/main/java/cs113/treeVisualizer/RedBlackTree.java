@@ -61,6 +61,7 @@ public class RedBlackTree<E extends Comparable<E>> {
 
         if (root == NIL) {
             root = newNode;
+            fixInsert(root);
             return;
         }
 
