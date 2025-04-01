@@ -61,7 +61,6 @@ public class RedBlackTree<E extends Comparable<E>> {
 
         if (root == NIL) {
             root = newNode;
-            root.color = Color.BLACK;
             return;
         }
 
