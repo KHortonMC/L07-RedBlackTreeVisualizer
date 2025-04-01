@@ -22,6 +22,9 @@ Run Test0 in the visualizer to see this result:
 ![test0A.png](src/main/resources/test0A.png)
 
 Inserting 75 has caused us to violate Rule 4, RED nodes may not have RED children. However, in this case, since the Parent & Pibling are both red, they can simply be recolored to BLACK.
+
+_Important: The grandparent can be now colored RED! This is also a good place to try to balance the grandparent!_
+
 Add logic to the fixInsert method to handle this condition.
 ![test0B.png](src/main/resources/test0B.png)
 
